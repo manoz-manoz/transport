@@ -9,6 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
+    "predeploy":"yarn run build",
      "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
